@@ -63,7 +63,7 @@ void del(tvr *arr, int *count) {
 	printf("Vvedite ego cost: ");
         scanf("%i", &cost);
 	for (int i=0; i < (*count); i++){
-		if(strcmp(arr[i].name, name)==0, strcmp(arr[i].color, color)==0, arr[i].cost = cost){
+		if(strcmp(arr[i].name, name)==0, strcmp(arr[i].color, color)==0){
 			arr[i]=arr[i+1];
 			arr=realloc(arr,(*count)*sizeof(tvr));
 			(*count)--;
