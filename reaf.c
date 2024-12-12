@@ -48,7 +48,7 @@ void add(tvr **arr, int *count) {
 	scanf("%s", newtvr->name);
 	printf("Vvedite color tovara: \n");
 	scanf("%s", newtvr->color);
-	printf("Vvedite ego kolichestvo: \n");
+	printf("Vvedite ego cost: \n");
 	scanf("%i", &newtvr->cost);
 	(*count)++;
 }
